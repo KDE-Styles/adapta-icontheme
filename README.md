@@ -1,6 +1,10 @@
-# 16 Oct 2018
+### 16 Oct 2018
 
 Repository freezes with stop upstream GTK development. More info [here](https://github.com/adapta-project/adapta-gtk-theme/commit/4e74e0f569ed527b715ca3840f5d7701baebaf3c)
+
+### 22 May 2023
+
+Repository forked. Maintenance mode only, fixing bugs. Maybe a customized version will come. I also plan on adding more Systemtray icons.
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/PapirusDevelopmentTeam/adapta-kde/master/preview.png" alt="Preview Adapta KDE"/>
@@ -22,6 +26,9 @@ In this repository you'll find:
 
 ## Installation
 
+Recommended: Dont install system packages but use KNewStuff/Discover to get your things.
+
+
 ### Ubuntu and derivatives
 
 You can install adapta-kde from our official [PPA](https://launchpad.net/~papirus/+archive/ubuntu/papirus):
@@ -37,6 +44,8 @@ or download .deb packages from [here](https://launchpad.net/~papirus/+archive/ub
 ### Adapta KDE Installer
 
 Use the script to install the latest version directly from this repo (independently on your distro):
+
+This is not tested on immutable Distros. Changing your system theme files is not nessecary, you can do all that as user.
 
 #### Install
 
@@ -60,7 +69,7 @@ Packages in this section are not part of the official repositories. If you have 
 | Arch Linux | Jan Neumann | [adapta-kde-git](https://aur.archlinux.org/packages/adapta-kde-git) <sup>AUR</sup> |
 | openSUSE | Konstantin Voinov | [adapta-kde](https://software.opensuse.org/download.html?project=home:kill_it&package=adapta-kde) <sup>OBS [[link](https://build.opensuse.org/package/show/home:kill_it/adapta-kde)]</sub> |
 
-**NOTE:** If you maintainer and want be in the list please create an issue or send a pull request.
+**NOTE:** If you are a maintainer and want be in the list please create an issue or send a pull request.
 
 ## Recommendations
 
@@ -93,6 +102,8 @@ TitleEdgeTop=0
 ## Known issues
 
 - On some propietary video drivers Aurorae have wrong rendering by default with Adapta theme. See more info [here](https://github.com/PapirusDevelopmentTeam/adapta-kde/issues/21)
+- Plasma 5.27+ breaks some Aurorae Themes. Should be fixed with 5.27.5
+- fractional scaling results in blurry decorations, Breeze is the only one working normally
 
 ## Donate
 
