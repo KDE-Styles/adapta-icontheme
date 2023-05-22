@@ -24,6 +24,8 @@ In this repository you'll find:
 - Wallpaper
 - Yakuake Skins
 
+Note: probably not all of these Themes will be kept alive.
+
 ## Installation
 
 Recommended: Dont install system packages but use KNewStuff/Discover to get your things.
